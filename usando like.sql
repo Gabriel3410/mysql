@@ -1,0 +1,6 @@
+USE SUCOS_VENDAS;
+SELECT * FROM tabela_de_produtos WHERE SABOR LIKE '%MAÇA%';
+
+SELECT * FROM tabela_de_produtos WHERE SABOR LIKE '%MAÇA%' AND EMBALAGEM = 'PET';
+
+SELECT * FROM tabela_de_clientes WHERE NOME LIKE '%MATTOS%';
