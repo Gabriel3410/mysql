@@ -24,3 +24,5 @@ DROP COLUMN descricao;
 
 ALTER TABLE produtos
 MODIFY COLUMN observacao VARCHAR(255);
+
+--AULA 01/09/2022;--
